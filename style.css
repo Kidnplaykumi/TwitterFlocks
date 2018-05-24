@@ -21,7 +21,8 @@
     flex-direction: row;
 }
 
-#main-body{
+
+#modal-body{
     width: 50rem;
     z-index: 2;
 }
