@@ -15,3 +15,26 @@
 #group-name-card-body h3{
     margin-left: 1rem;
 }
+
+#main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+#main-body{
+    width: 50rem;
+    z-index: 2;
+}
+
+#modal-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.8);
+}
