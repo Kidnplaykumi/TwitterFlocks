@@ -1,0 +1,19 @@
+#Compose_Tweet{
+  font-size: 33px;
+  color: black;
+}
+
+
+#Tweet-Text-Box{
+width: 100%;
+length: 50%;
+
+}
+
+.btn btn-primary{
+  border-radius:25px;
+}
+
+btn btn-danger dropdown-toggle{
+  background-color: blue;
+}

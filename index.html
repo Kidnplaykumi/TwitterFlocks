@@ -1,55 +1,90 @@
 <html>
 
-    <head>
-        <title>Twitter Flocks</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+  <title>Twitter Flocks</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="modal.css">
+  <script src="controller.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
 
-    <!-- Image and text -->
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
-            TwitterFlocks
-        </a>
-    </nav>   
-    
-    
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+    TwitterFlocks
+  </a>
+</nav>
 
-    <body>
-        <div id="group-name-card" class="card">
-            <div class="card-body" id="group-name-card-body">
-                    <img id="group-name-image" src="http://www.mapr.org/sites/default/files/styles/large/public/artwork/01.papocolo_0.jpg?itok=LAQ4lFX4"/>
-                    <h3 id="group-name-text">Group Name</h3>
-                </div>
-        </div>
-        <div id="main-content">
-            <div id="main-content-left">
 
-            </div>
-            <div id="main-content-center">
 
-            </div>
-            <div id="main-content-right">
-
-            </div>
-        </div>
-    </body>
-    
-    
-
-    <div id="modal-container">
-        <div id="modal-body" class="card">
-                <div class="card-body">
-                    Modal Content
-                </div>
-        </div>
+<body>
+  <div id="group-name-card" class="card">
+    <div class="card-body" id="group-name-card-body">
+      <img id="group-name-image" src="http://www.mapr.org/sites/default/files/styles/large/public/artwork/01.papocolo_0.jpg?itok=LAQ4lFX4"/>
+      <h3 id="group-name-text">Group Name</h3>
     </div>
-    
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="./controller.js"></script>
+  </div>
+  <div id="main-content">
+    <div id="main-content-left">
 
-</html>
+    </div>
+    <div id="main-content-center">
+
+    </div>
+    <div id="main-content-right">
+
+    </div>
+  </div>
+</body>
+
+
+
+<div id="modal-container">
+  <div id="modal-body" class="card">
+    <div class="card-body">
+
+      <!-- Button trigger modal -->
+      <!-- A Good Portion of the css comes from bootstrap -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Compose_Tweet">Compose Tweet</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer" >
+          <div class="dropdown">
+
+          <button type="button"  class="btn btn-primary"> Tweet
+          </button>
+
+          <!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
+
+          </div>
+        </div>
+        </div>
+      </div>
+
+
+      </html>
