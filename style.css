@@ -1,0 +1,17 @@
+#group-name-card{
+    background-color: orange;
+}
+
+#group-name-image{
+    width: 72px;
+    height: 72px;
+}
+
+#group-name-card-body{
+    display: flex;
+    align-items: center;
+}
+
+#group-name-card-body h3{
+    margin-left: 1rem;
+}
