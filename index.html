@@ -7,13 +7,35 @@
     </head>
 
     <!-- Image and text -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="Twitter-Logo-PNG.png" width="30" height="30" class="d-inline-block align-top" alt="">
             TwitterFlocks
         </a>
-    </nav>   
-    
+		<div class="collapse navbar-collapse" id="Twitterflocknav">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				 <li class="home-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				 </li>
+				 <li class="moments-item active">
+					<a class="nav-link" href="#">Moments</a>
+				 </li>
+				 <li class="notifications-item active">
+					<a class="nav-link disabled" href="#">Notifications</a>
+				 </li>
+				 <li class="messages-item active">
+					<a class="nav-link disabled" href="#">Messages</a>
+				 </li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+			  <input class="form-control mr-sm-2" type="search" placeholder="Search">
+			  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+			<button type="button" class="btn btn-primary active" style="border-radius:12px; margin: 2px 8px;">Tweet Flock</button>
+		</div>
+    </nav> 
+
+
     
 
     <body>
@@ -24,6 +46,4 @@
                     </div>
             </div>
     </body> 
-
-
 </html>
