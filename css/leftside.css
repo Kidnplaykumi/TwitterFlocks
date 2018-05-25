@@ -20,14 +20,19 @@
 }
 
 #main-content-right{
-    border-style: solid;
     margin: 10px;
     padding: 10px;
     
 
 }
 
-#Related-groups-list{
+.related-groups-header{
+    border-style: solid;
     margin: 10px;
-    padding: 10px;
+    padding: 10px;  
+}
+
+#john-pic{
+    height: 40px;
+    width: 40px;
 }
