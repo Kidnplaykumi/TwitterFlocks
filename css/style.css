@@ -44,3 +44,28 @@
     align-items: center;
     background: rgba(0,0,0,.8);
 }
+
+#main-content-right{
+  flex-grow: 1;
+
+}
+
+#main-content-center{
+  flex-grow: 2;
+
+}
+#main-content-left{
+  flex-grow: 1;
+
+}
+
+#center-card-style{
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.avatar{
+	border-radius: 50%;
+}
