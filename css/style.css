@@ -1,3 +1,8 @@
+#tweetbtn{
+	border-radius:12px;
+	margin: 2px 8px;
+}
+
 #group-name-card{
     background-color: orange;
 }
@@ -21,7 +26,8 @@
     flex-direction: row;
 }
 
-#main-body{
+
+#modal-body{
     width: 50rem;
     z-index: 2;
 }
